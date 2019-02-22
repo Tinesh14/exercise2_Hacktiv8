@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>JavaScript Calculator</h1> <br><br><br>
+
+<div id="calculator" class="calculator">
+  <button id="clear" class="clear" onclick="c('')">C</button>
+  <div id="viewer" class="viewer">
+  		<input type="text" id="nilai">
+  </div>
+  <button class="num" data-num="7" onclick="insert('7')">7</button>
+  <button class="num" data-num="8" onclick="insert('8')">8</button>
+  <button class="num" data-num="9" onclick="insert('9')">9</button>
+  <button class="ops" onclick="insert('+')">+</button>
+
+  <button class="num" data-num="4" onclick="insert('4')">4</button>
+  <button class="num" data-num="5" onclick="insert('5')">5</button>
+  <button class="num" data-num="6" onclick="insert('6')">6</button>
+  <button class="ops" onclick="insert('-')">-</button>
+
+  <button class="num" data-num="1" onclick="insert('1')">1</button>
+  <button class="num" data-num="2" onclick="insert('2')">2</button>
+  <button class="num" data-num="3" onclick="insert('3')">3</button>
+  <button class="ops" onclick="insert('*')">*</button>
+
+  <button class="num" data-num="0" onclick="insert('0')">0</button>
+  <button class="num" data-num="." onclick="insert('.')">.</button>
+  <button id="equals" class="equals" onclick="equal()">=</button>
+  <button class="ops" onclick="insert('/')">/</button>
+</div>
+	<script type="text/javascript" src="hitung.js"></script>
+	</body>
+	</html>	
